@@ -1,11 +1,15 @@
 {
   "name": "fancy-query-dialog",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "main": "./dist/fancy-query-dialog.common.js",
+  "files":[
+    "dist"
+  ],
+  "private": false,
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "package": "vue-cli-service build --target lib --fancy-query-dialog main ./src/components/index.js"
   },
   "dependencies": {
     "axios": "^0.21.1",

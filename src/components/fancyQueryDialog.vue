@@ -46,7 +46,7 @@
 <script>
 const splitKey = ";";
 export default {
-    name:"fancyDialogList",
+    name:"fancyQueryDialog",
     props:{
         value: {
             type: String,

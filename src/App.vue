@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import fancyQueryDialog from './components/fancyDialogList.vue'
+import fancyQueryDialog from './components/fancyQueryDialog.vue'
 
 export default {
   name: 'App',
