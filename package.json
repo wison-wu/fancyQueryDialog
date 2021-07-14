@@ -1,6 +1,7 @@
 {
   "name": "fancy-query-dialog",
   "version": "1.0.0",
+  "author": "wison.wu",
   "main": "./dist/fancy-query-dialog.common.js",
   "files":[
     "dist"
